@@ -1,0 +1,90 @@
+/*****************************TAG SELECTOR****************************/
+body {
+    background-color: #F6F6F6;
+    margin: 3%;
+    margin-top: 0%;
+}
+hr{
+    border-color: purple;
+    border-width: 5px;
+    border-style: dotted none none;
+    /* we can use both the methods. */
+    /* border-style: none; */
+    /* border-top-style: dotted; */
+    height: 0px;
+    width: 8%;
+}
+h1,h3{
+    color: #239b9b;
+}
+h1:hover{
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+th,td {
+    border:1px solid black;
+    border-style: ridge;
+    text-align: center;
+    }
+a{
+    color:green;
+    text-decoration:none;
+}
+a:hover{
+    color:purple;
+}
+i:hover{
+    color:#1DA1F2;
+}
+i{
+    margin-top: .55rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding-right: .4rem;
+}
+h2{
+    float:left;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}    
+/*****************************CLASS SELECTOR****************************/
+.datatable {
+    border:1px solid black;
+    border-style: ridge;
+    text-align: center;
+    }
+.zoom:hover {
+    transform: scale(1.05); 
+}
+.block{
+    margin: 2% 20%;
+    margin-top: 0%;
+    background-color:#EBE9F6;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 3%;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    
+}
+
+.right{
+    float: right;
+}
+.block1{
+    margin: 0% 20%;
+    background-color: #F6F6F6;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.no{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}
+.icon2{
+    padding-left:1.5rem;
+    font-size: 1rem;
+}
